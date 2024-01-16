@@ -21,6 +21,7 @@ public class Course implements Serializable {
 	private int courseId;
 	private String courseName;
 	private double price;
+	private String id;
 	public Course(int courseId, String courseName, double price) {
 		super();
 		this.courseId = courseId;
